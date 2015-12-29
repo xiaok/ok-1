@@ -1,0 +1,36 @@
+module.exports = {
+  "luosimao": {
+    "key": "xxxx",
+    "secret": "xxxxx"
+  },
+  "phones": [
+    "xxxxxxxxx",
+    "xxxxxxxxxx"
+  ],
+  "applications": [
+    // {
+    //   "name": "form.dev",
+    //   "statusUrl": "http://form.treation.com:8080/status",
+    // },
+    // {
+    //   "name": "form.stage",
+    //   "statusUrl": "http://form.treation.com/status",
+    // },
+    // {
+    //   "name": "treation.dev",
+    //   "statusUrl": "http://treation.com:8080/status",
+    // },
+    // {
+    //   "name": "treation.stage",
+    //   "statusUrl": "http://treation.com/status",
+    // },
+    {
+      "name": "treation-server.dev",
+      "statusUrl": "http://service.treation.com:8080/api/v1/status",
+    },
+    // {
+    //   "name": "treation-server.stage",
+    //   "statusUrl": "http://service.treation.com/api/v1/status",
+    // }
+  ]
+}

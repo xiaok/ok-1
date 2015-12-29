@@ -1,0 +1,24 @@
+{
+  "name": "ok-1",
+  "version": "1.0.0",
+  "description": "node script to monitor services' status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaok/ok-1.git"
+  },
+  "author": "xlaok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaok/ok-1/issues"
+  },
+  "homepage": "https://github.com/xiaok/ok-1#readme",
+  "dependencies": {
+    "cjson": "^0.3.2",
+    "node-sms-luosimao": "^1.0.3",
+    "request": "^2.67.0"
+  }
+}
